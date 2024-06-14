@@ -1,0 +1,39 @@
+a{
+    font-size: 18px;
+    color: blue;
+    }
+
+    a:hover {
+        color: brown;
+    }
+
+    h1{
+        font-size: 30px;
+        }
+
+ img{
+            float:left;
+            }
+
+.nav{
+                display: flex;
+                }
+                
+
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    img{
+        float: right;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav{
+        display: grid;
+    }
+}
